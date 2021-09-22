@@ -22,7 +22,7 @@ int main()
      else
       printf("Wrong Choice");
       getch(); 
- }
+   }
   int add(int x, int y){
    res=x+y;
    return res;
@@ -34,6 +34,9 @@ int main()
   int mul(int x, int y){
    res=x*y;
    return res;
-}
-
+   }
+  int div(int x, int y){
+   res=x/y;
+   return res; 
+   }
 }
