@@ -31,5 +31,9 @@ int main()
    res=x-y;
    return res;
    }
+  int mul(int x, int y){
+   res=x*y;
+   return res;
+}
 
 }
